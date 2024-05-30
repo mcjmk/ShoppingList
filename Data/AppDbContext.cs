@@ -21,5 +21,7 @@ namespace ShoppingList.Data
         public DbSet<ShoppingList.Models.ProductMacro> ProductMacro { get; set; } = default!;
 
         public DbSet<ShoppingList.Models.User> User { get; set; } = default!;
+
+        public DbSet<ShoppingList.Models.UserShoppingList> UserShoppingList { get; set; } = default!;
     }
 }

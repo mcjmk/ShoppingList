@@ -11,7 +11,6 @@ namespace ShoppingList.Models
         [Required]
         public String ShoppingListName { get; set; }
 
-        [Required]
         [ForeignKey("User")]
         public int UserId { get; set; }
 
