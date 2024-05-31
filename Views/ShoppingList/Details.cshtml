@@ -1,0 +1,36 @@
+@model ShoppingList.Models.UserShoppingList
+
+@{
+    ViewData["Title"] = "Shopping List Details";
+}
+
+<h2>@Model.ShoppingListName</h2>
+
+<a asp-action="AddProduct" asp-route-id="@Model.ShoppingListId" class="btn btn-primary">Add Product</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <a asp-action="Sort" asp-route-id="@Model.ShoppingListId" asp-route-sortOrder="name_asc">[A-Z]</a> |
+                <a asp-action="Sort" asp-route-id="@Model.ShoppingListId" asp-route-sortOrder="name_desc">[Z-A]</a>
+            </th>
+            <th>Quantity</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.ListContents)
+        {
+            <tr>
+                <td>@item.Product.NameProduct</td>
+                <td>@item.Quantity</td>
+                <td>
+                    <form asp-action="DeleteProduct" asp-route-id="@item.ListContentId" method="post" style="display:inline;">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

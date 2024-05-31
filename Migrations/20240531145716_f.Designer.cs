@@ -11,8 +11,8 @@ using ShoppingList.Data;
 namespace ShoppingList.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240530103524_AddProductMacro")]
-    partial class AddProductMacro
+    [Migration("20240531145716_f")]
+    partial class f
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

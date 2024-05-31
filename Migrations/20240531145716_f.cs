@@ -5,7 +5,7 @@
 namespace ShoppingList.Migrations
 {
     /// <inheritdoc />
-    public partial class AddProduct : Migration
+    public partial class f : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

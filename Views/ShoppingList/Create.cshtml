@@ -1,0 +1,22 @@
+@model ShoppingList.Models.UserShoppingList
+
+@{
+    ViewData["Title"] = "Create Shopping List";
+}
+
+<h2>Create Shopping List</h2>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="ShoppingListName" class="control-label"></label>
+        <input asp-for="ShoppingListName" class="form-control" />
+        <span asp-validation-for="ShoppingListName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

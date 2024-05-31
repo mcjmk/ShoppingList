@@ -1,0 +1,33 @@
+@{
+    ViewData["Title"] = "Admin Panel";
+}
+
+<h2 class="text-center">@ViewData["Title"]</h2>
+
+<div class="admin-panel-container">
+    <div class="admin-buttons text-center">
+        <button onclick="location.href='@Url.Action("Index", "Product")'" class="btn btn-primary">Administrate product list</button>
+        <button onclick="location.href='@Url.Action("Index", "User")'" class="btn btn-primary">Adminstrate user list</button>
+        <button onclick="location.href='@Url.Action("Index", "UserShoppingList")'" class="btn btn-primary">Administrate users shopping lists</button>
+        <button onclick="location.href='@Url.Action("Index", "Macro")'" class="btn btn-primary">Edit products macro</button>
+        <button onclick="location.href='@Url.Action("Index", "ProductMacro")'" class="btn btn-primary">Assign macro to the product</button>
+    </div>
+</div>
+
+<style>
+    .admin-panel-container {
+        text-align: center; 
+    }
+
+    .admin-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        margin-top: 20px; 
+    }
+
+    .admin-buttons .btn {
+        width: 200px;
+        margin-bottom: 10px;
+    }
+</style>
