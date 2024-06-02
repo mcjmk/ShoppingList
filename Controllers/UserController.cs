@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -60,6 +61,7 @@ namespace ShoppingList.Controllers
         {
             if (ModelState.IsValid)
             {
+                user.HashedPassword = ComputeMd5Hash(user.HashedPassword); 
                 _context.Add(user);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -159,5 +161,20 @@ namespace ShoppingList.Controllers
         {
           return (_context.User?.Any(e => e.UserId == id)).GetValueOrDefault();
         }
+        private static string ComputeMd5Hash(string input)
+            {
+            using (var md5 = System.Security.Cryptography.MD5.Create())
+                {
+                byte[] inputBytes = Encoding.ASCII.GetBytes(input);
+                byte[] hashBytes = md5.ComputeHash(inputBytes);
+
+                StringBuilder sb = new StringBuilder();
+                for (int i = 0; i < hashBytes.Length; i++)
+                {
+                    sb.Append(hashBytes[i].ToString("X2"));
+                }
+                return sb.ToString();
+                }
+            }
     }
 }

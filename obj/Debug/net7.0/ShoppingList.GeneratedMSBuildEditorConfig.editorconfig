@@ -9,183 +9,181 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ShoppingList
 build_property.RootNamespace = ShoppingList
-build_property.ProjectDir = C:\Users\kniko\OneDrive\Pulpit\pz2\shop\ShoppingList\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\Maciek\OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie\archiwum 14.12\Pulpit\shoppinglist\ShoppingList\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\kniko\OneDrive\Pulpit\pz2\shop\ShoppingList
+build_property.MSBuildProjectDirectory = C:\Users\Maciek\OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie\archiwum 14.12\Pulpit\shoppinglist\ShoppingList
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/Account/AdminPanel.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/Account/AdminPanel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBZG1pblBhbmVsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/Account/Login.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/Home/Index.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/Home/Privacy.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/ListContent/Create.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/ListContent/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdENvbnRlbnRcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/ListContent/Delete.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/ListContent/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdENvbnRlbnRcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/ListContent/Details.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/ListContent/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdENvbnRlbnRcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/ListContent/Edit.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/ListContent/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdENvbnRlbnRcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/ListContent/Index.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/ListContent/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdENvbnRlbnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/Macro/Create.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/Macro/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFjcm9cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/Macro/Delete.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/Macro/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFjcm9cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/Macro/Details.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/Macro/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFjcm9cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/Macro/Edit.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/Macro/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFjcm9cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/Macro/Index.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/Macro/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFjcm9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/ProductMacro/Create.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/ProductMacro/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdE1hY3JvXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/ProductMacro/Delete.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/ProductMacro/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdE1hY3JvXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/ProductMacro/Details.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/ProductMacro/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdE1hY3JvXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/ProductMacro/Edit.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/ProductMacro/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdE1hY3JvXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/ProductMacro/Index.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/ProductMacro/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdE1hY3JvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/Product/Create.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/Product/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/Product/Delete.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/Product/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/Product/Details.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/Product/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/Product/Edit.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/Product/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/Product/Index.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/Shared/Error.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/ShoppingList/AddProduct.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/ShoppingList/AddProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdMaXN0XEFkZFByb2R1Y3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/ShoppingList/Create.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/ShoppingList/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdMaXN0XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/ShoppingList/Details.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/ShoppingList/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdMaXN0XERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/ShoppingList/Index.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/ShoppingList/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdMaXN0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/UserShoppingList/Create.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/UserShoppingList/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclNob3BwaW5nTGlzdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/UserShoppingList/Delete.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/UserShoppingList/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclNob3BwaW5nTGlzdFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/UserShoppingList/Details.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/UserShoppingList/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclNob3BwaW5nTGlzdFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/UserShoppingList/Edit.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/UserShoppingList/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclNob3BwaW5nTGlzdFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/UserShoppingList/Index.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/UserShoppingList/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclNob3BwaW5nTGlzdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/User/Create.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/User/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/User/Delete.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/User/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/User/Details.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/User/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/User/Edit.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/User/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/User/Index.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/_ViewImports.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/_ViewStart.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kniko/OneDrive/Pulpit/pz2/shop/ShoppingList/Views/Shared/_Layout.cshtml]
+[C:/Users/Maciek/OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie/archiwum 14.12/Pulpit/shoppinglist/ShoppingList/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-3yv3qq2gax

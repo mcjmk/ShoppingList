@@ -11900,26 +11900,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kniko\\.nuget\\packages\\": {}
+    "C:\\Users\\Maciek\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kniko\\OneDrive\\Pulpit\\pz2\\shop\\ShoppingList\\ShoppingList.csproj",
+      "projectUniqueName": "C:\\Users\\Maciek\\OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie\\archiwum 14.12\\Pulpit\\shoppinglist\\ShoppingList\\ShoppingList.csproj",
       "projectName": "ShoppingList",
-      "projectPath": "C:\\Users\\kniko\\OneDrive\\Pulpit\\pz2\\shop\\ShoppingList\\ShoppingList.csproj",
-      "packagesPath": "C:\\Users\\kniko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kniko\\OneDrive\\Pulpit\\pz2\\shop\\ShoppingList\\obj\\",
+      "projectPath": "C:\\Users\\Maciek\\OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie\\archiwum 14.12\\Pulpit\\shoppinglist\\ShoppingList\\ShoppingList.csproj",
+      "packagesPath": "C:\\Users\\Maciek\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Maciek\\OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie\\archiwum 14.12\\Pulpit\\shoppinglist\\ShoppingList\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kniko\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Maciek\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11932,11 +11930,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -11991,24 +11984,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.19, 7.0.19]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[7.0.19, 7.0.19]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.19, 7.0.19]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[7.0.19, 7.0.19]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -12017,7 +11992,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using System.Security.Claims;
+using System.Text;
 
 namespace ShoppingList.Controllers
 {
@@ -21,7 +22,7 @@ namespace ShoppingList.Controllers
 
         [HttpGet]
         public IActionResult Login()
-        {
+        { 
             return View();
         }
 
@@ -32,9 +33,10 @@ namespace ShoppingList.Controllers
             {
                 return View(model);
             }
-
+            string hashedPassword = ComputeMd5Hash(model.Password);
+            Console.Write(hashedPassword);
             var user = await _context.User
-                .FirstOrDefaultAsync(u => u.UserName == model.Username && u.HashedPassword == model.Password);
+                .FirstOrDefaultAsync(u => u.UserName == model.Username && u.HashedPassword == hashedPassword);
 
             if (user == null)
             {
@@ -53,14 +55,7 @@ namespace ShoppingList.Controllers
 
             await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties);
 
-            if (user.IsAdmin)
-            {
-                return RedirectToAction("AdminPanel", "Account");
-            }
-            else
-            {
-                return RedirectToAction("Index", "ShoppingList");
-            }
+            return user.IsAdmin ? RedirectToAction("AdminPanel", "Account") : RedirectToAction("Index", "ShoppingList");
         }
 
         [HttpGet]
@@ -74,6 +69,22 @@ namespace ShoppingList.Controllers
         {
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToAction("Login", "Account");
+        }
+
+        private static string ComputeMd5Hash(string input)
+        {
+            using (var md5 = System.Security.Cryptography.MD5.Create())
+            {
+                byte[] inputBytes = Encoding.ASCII.GetBytes(input);
+                byte[] hashBytes = md5.ComputeHash(inputBytes);
+
+                StringBuilder sb = new StringBuilder();
+                for (int i = 0; i < hashBytes.Length; i++)
+                {
+                    sb.Append(hashBytes[i].ToString("X2"));
+                }
+                return sb.ToString();
+            }
         }
     }
 }
