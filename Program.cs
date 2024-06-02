@@ -29,12 +29,11 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.ExpireTimeSpan = TimeSpan.FromMinutes(30); 
     });
 
-// builder.Services.AddAuthorization(options =>
-// { 
-//     options.FallbackPolicy = new AuthorizationPolicyBuilder()
-//         .RequireAuthenticatedUser()
-//         .Build();
-// });
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AdminOnly", policy => policy.RequireClaim("IsAdmin", "True"));
+    options.AddPolicy("UserOnly", policy => policy.RequireClaim("IsAdmin", "False"));
+});
 
 var app = builder.Build();
 

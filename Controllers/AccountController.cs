@@ -71,6 +71,12 @@ namespace ShoppingList.Controllers
             return RedirectToAction("Login", "Account");
         }
 
+        [HttpGet]
+        public IActionResult AccessDenied()
+        {
+            return View();
+        }
+
         private static string ComputeMd5Hash(string input)
         {
             using (var md5 = System.Security.Cryptography.MD5.Create())

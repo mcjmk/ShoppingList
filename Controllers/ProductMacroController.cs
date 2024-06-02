@@ -7,9 +7,13 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ShoppingList.Data;
 using ShoppingList.Models;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ShoppingList.Controllers
 {
+    
+    [Authorize(Policy = "AdminOnly")]
     public class ProductMacroController : Controller
     {
         private readonly AppDbContext _context;

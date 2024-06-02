@@ -7,11 +7,16 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ShoppingList.Data;
 using ShoppingList.Models;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ShoppingList.Controllers
 {
+    
+    [Authorize(Policy = "AdminOnly")]
     public class ListContentController : Controller
     {
+        
         private readonly AppDbContext _context;
 
         public ListContentController(AppDbContext context)
@@ -47,6 +52,7 @@ namespace ShoppingList.Controllers
         }
 
         // GET: ListContent/Create
+        
         public IActionResult Create()
         {
             ViewData["ProductId"] = new SelectList(_context.Product, "ProductId", "NameProduct");
