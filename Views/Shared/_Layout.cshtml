@@ -25,6 +25,24 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
+                        
+                        
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            if (User.Claims.Any(c => (c.Type == "IsAdmin" && c.Value == "True")))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="AdminPanel">Admin Panel</a>
+
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="ShoppingList" asp-action="Index">User Panel</a>
+                                </li>
+                            }
+                        }
                     </ul>
                 </div>
             </div>
